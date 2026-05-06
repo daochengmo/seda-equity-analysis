@@ -1,0 +1,5 @@
+data/
+output/
+*.pdf
+.Rproj.user/
+.Rhistory
