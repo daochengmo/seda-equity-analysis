@@ -4,7 +4,7 @@ Descriptive analysis of post-pandemic achievement gaps in U.S. school districts,
 
 ## Overview
 
-This pipeline characterizes the geographic and demographic structure of academic achievement gaps across approximately 11,000 U.S. school districts in 2024. It produces five publication-quality figures and a 12-page technical report (`report.Rmd` -> `Mo_Daocheng_Writing_Sample.pdf`).
+This pipeline characterizes the geographic and demographic structure of academic achievement gaps across approximately 11,000 U.S. school districts in 2024. It produces five publication-quality figures and a 12-page technical report.
 
 ## Key findings
 
@@ -22,17 +22,17 @@ This pipeline characterizes the geographic and demographic structure of academic
 | `03_figure1_gap_distributions.R` | National distribution of district-level gaps |
 | `04_figure2_state_rankings.R` | State-level dot-and-whisker ranking |
 | `05_figure3_county_map.R` | National choropleth of state-level gaps |
-| `06_figure4_ses_vs_gap.R` | District poverty vs. racial gap (the paradox) |
+| `06_figure4_ses_vs_gap.R` | District poverty vs. racial gap |
 | `07_figure5_pre_post_pandemic.R` | Within-district 2019-2024 gap change |
 | `report.Rmd` | Final write-up |
 
 ## Data
 
-SEDA v2024.3 is publicly available from the Educational Opportunity Project at Stanford University (https://edopportunity.org/get-the-data/) and is not redistributed in this repository (see `.gitignore`).
+SEDA v2024.3 is publicly available from the Educational Opportunity Project at Stanford University (https://edopportunity.org/get-the-data/) and is not redistributed in this repository.
 
 ## Software
 
-R 4.6 with `tidyverse`, `sf`, `tigris`, and `patchwork`. Analysis run on macOS (Apple Silicon), May 2026.
+R 4.6 with `tidyverse`, `sf`, `tigris`, and `patchwork`. Analysis run on macOS, May 2026.
 
 ## Author
 
