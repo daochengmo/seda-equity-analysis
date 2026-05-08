@@ -10,7 +10,7 @@ This pipeline characterizes the geographic and demographic structure of academic
 
 - The median district White-Black math gap is 0.65 SD (~two grade levels of learning).
 - Gaps are concentrated in the Upper Midwest; Wisconsin shows the largest within-state district gaps in the country (median 1.15 SD).
-- District poverty and racial gap size are *negatively* correlated (r = -0.24), consistent with the segregation-driven account of inequality (Reardon & Owens, 2014).
+- District poverty and racial gap size are negatively correlated (r = -0.24), a pattern often associated with segregation-focused accounts of inequality (Reardon & Owens, 2014).
 - 62-65% of districts saw racial achievement gaps widen between 2019 and 2024.
 
 ## Pipeline
@@ -25,6 +25,10 @@ This pipeline characterizes the geographic and demographic structure of academic
 | `06_figure4_ses_vs_gap.R` | District poverty vs. racial gap |
 | `07_figure5_pre_post_pandemic.R` | Within-district 2019-2024 gap change |
 | `report.Rmd` | Final write-up |
+
+## Report
+
+The final 12-page technical report is available as `report.pdf` in this repository, and the underlying figures are in the `figures/` folder.
 
 ## Data
 
