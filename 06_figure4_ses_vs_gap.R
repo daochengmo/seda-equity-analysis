@@ -75,7 +75,7 @@ fig4 <- ggplot(plot_df, aes(x = pct_frl_pct, y = gap_wht_blk_math)) +
            hjust = 0, size = 3.2, color = "grey25", fontface = "italic") +
   labs(
     title    = "The Paradox of District Poverty: Where Are Racial Gaps Largest?",
-    subtitle = "District White-Black math gap (2024) by share of students on free/reduced-price lunch (dot size = enrollment).\nGaps are largest in low-poverty, demographically mixed districts (Reardon & Owens, 2014).",
+    subtitle = "District White-Black math gap (2024) by share of students on free/reduced-price lunch (dot size = enrollment).\nDescriptive pattern consistent with segregation-focused accounts of achievement gaps.",
     x        = "Share of students eligible for free/reduced-price lunch",
     y        = "White-Black math gap (SD units)",
     caption  = "Data: SEDA v2024.3. LOESS smoother with 95% CI. Analysis: D. Mo, May 2026."
